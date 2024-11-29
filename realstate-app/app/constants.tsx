@@ -1,18 +1,17 @@
-interface card{
-    id:number,
-    discription:string,
-    price?:string,
-    location?:string,
-    image?:string,
-    bedroom?:number,
-    bathroom?:number
+interface card {
+  id: number,
+  discription: string,
+  price?: string,
+  location?: string,
+  image?: string,
+  bedroom?: number,
+  bathroom?: number
 
 }
 
-const cardValue:card[] = [
+const cardValue: card[] = [
   {
     id: 1,
-
     discription: "Luxury Apartment",
     bedroom: 3,
     bathroom: 2,
@@ -45,5 +44,5 @@ const cardValue:card[] = [
   },
 ];
 
-  
+
 export default cardValue
